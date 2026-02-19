@@ -50,7 +50,7 @@
   <project path="external/bouncycastle" name="android_external_bouncycastle" remote="derp" />
   <project path="external/dng_sdk" name="android_external_dng_sdk" remote="derp" />
   <project path="external/libjxl" name="android_external_libjxl" remote="derp" />
-  <project path="external/pulse" name="android_external_pulse" groups="pdk" remote="derp" />
+  <project path="external/pulse" name="priv_android_external_pulse" groups="pdk" remote="derp" />
   <project path="external/FadingEdgeLayout" name="android_external_FadingEdgeLayout" remote="derp" />
 
   <project path="device/lineage/sepolicy" name="android_device_derpfest_sepolicy" remote="derp" />
