@@ -99,6 +99,6 @@
   <project path="vendor/gms" name="DerpFest-AOSP/android_vendor_gms" remote="codeberg" revision="16.2" clone-depth="1" />
   <project path="vendor/lineage" name="priv_android_vendor_derpfest" remote="derp" />
   <project path="vendor/overlay" name="android_vendor_overlay" remote="derp" />
-  <project path="vendor/support" name="android_vendor_support" remote="derp" />
+  <project path="vendor/support" name="priv_android_vendor_support" remote="derp" />
 
 </manifest>
