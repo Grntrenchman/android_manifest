@@ -56,6 +56,7 @@
   <project path="device/lineage/sepolicy" name="android_device_derpfest_sepolicy" remote="derp" />
 
   <project path="hardware/google/pixel-sepolicy" name="android_hardware_google_pixel-sepolicy" remote="derp" />
+  <project path="hardware/st/nfc" name="android_hardware_st_nfc" groups="pdk" remote="derp" />
 
   <project path="frameworks/av" name="android_frameworks_av" remote="derp" />
   <project path="frameworks/base" name="qpr2_frameworks_base" remote="derp" />
@@ -68,6 +69,7 @@
   <project path="packages/apps/Launcher3" name="priv_android_packages_apps_DerpLauncher" remote="derp" />
   <project path="packages/apps/DerpWalls" name="android_packages_apps_DerpWalls" remote="derp" />
   <project path="packages/apps/DerpFestParts" name="priv_android_packages_apps_DerpFestParts" remote="derp" />
+  <project path="packages/apps/DocumentsUI" name="android_packages_apps_DocumentsUI" groups="pdk-cw-fs,pdk-fs" remote="derp" />
   <project path="packages/apps/FaceUnlock" name="android_packages_apps_FaceUnlock" remote="derp" />
   <project path="packages/apps/GameSpace" name="android_packages_apps_GameSpace" remote="derp" />
   <project path="packages/apps/LMOFreeform" name="android_packages_apps_LMOFreeform" remote="derp" />
@@ -85,8 +87,12 @@
   <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" remote="derp" />
   <project path="packages/modules/Connectivity" name="android_packages_modules_Connectivity" remote="derp" />
   <project path="packages/modules/Permission" name="android_packages_modules_Permission" remote="derp" />
+  <project path="packages/modules/Virtualization" name="android_packages_modules_Virtualization" groups="pdk" remote="derp" />
   <project path="packages/modules/Wifi" name="android_packages_modules_Wifi" remote="derp" />
+  <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="derp" />
+  <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="derp" />
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="derp" />
+  <project path="packages/services/Telephony" name="android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="derp" />
 
   <project path="system/bpf" name="android_system_bpf" remote="derp" />
   <project path="system/core" name="android_system_core" remote="derp" />
